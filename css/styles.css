@@ -21,6 +21,7 @@ header{
 #footer{
   display: flex;
   justify-content: center;
+  vertical-align: bottom;
 }
 #images {
   margin: 20px;
@@ -59,6 +60,23 @@ td{
     display: none;
   }
 }
+h2, p{
+  margin: .5em;
+}
+form{
+  margin: .5em;
+  padding: .5em;
+}
+button{
+  margin-top: 1em;
+}
+#divs{
+  margin: 1em;
+}
+#submit{
+  margin-top: 1em;
+}
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
